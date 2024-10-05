@@ -298,7 +298,7 @@ function blackhole(element) {
             
             if (x >= tryAgainLeft && x <= tryAgainLeft + tryAgainWidth &&
                 y >= tryAgainTop && y <= tryAgainTop + tryAgainHeight) {
-                location.reload(); // Reload the page when "TRY AGAIN?" is clicked
+                window.location.href = "https://ben-blance.github.io/Inkognito_feelings/";
             }
         });
         
